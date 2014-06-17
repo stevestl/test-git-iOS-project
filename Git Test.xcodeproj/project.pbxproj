@@ -21,6 +21,7 @@
 		92DFDF491950C3C400E8F6C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DFDF2B1950C3C300E8F6C5 /* UIKit.framework */; };
 		92DFDF511950C3C400E8F6C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92DFDF4F1950C3C400E8F6C5 /* InfoPlist.strings */; };
 		92DFDF531950C3C400E8F6C5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFDF521950C3C400E8F6C5 /* Git_TestTests.m */; };
+		92DFDF5E1950C75500E8F6C5 /* SKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFDF5D1950C75500E8F6C5 /* SKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		92DFDF4E1950C3C400E8F6C5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		92DFDF501950C3C400E8F6C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92DFDF521950C3C400E8F6C5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		92DFDF5C1950C75500E8F6C5 /* SKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTest.h; sourceTree = "<group>"; };
+		92DFDF5D1950C75500E8F6C5 /* SKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				92DFDF391950C3C300E8F6C5 /* Main.storyboard */,
 				92DFDF3C1950C3C300E8F6C5 /* SKViewController.h */,
 				92DFDF3D1950C3C300E8F6C5 /* SKViewController.m */,
+				92DFDF5C1950C75500E8F6C5 /* SKTest.h */,
+				92DFDF5D1950C75500E8F6C5 /* SKTest.m */,
 				92DFDF3F1950C3C300E8F6C5 /* Images.xcassets */,
 				92DFDF2E1950C3C300E8F6C5 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92DFDF381950C3C300E8F6C5 /* SKAppDelegate.m in Sources */,
+				92DFDF5E1950C75500E8F6C5 /* SKTest.m in Sources */,
 				92DFDF3E1950C3C300E8F6C5 /* SKViewController.m in Sources */,
 				92DFDF341950C3C300E8F6C5 /* main.m in Sources */,
 			);
